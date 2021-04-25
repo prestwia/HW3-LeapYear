@@ -11,17 +11,7 @@
 
 print("Determine if year is a leap year.")
 
-while True:
-	while True:
-		try:
-			year = int(input("Enter year: "))
-			break
-		except:
-			print("Enter an integer")
-	if (year >= 1):
-		break
-	else:
-		print("Enter a positive year > 0")
+year = int(input("Enter year: "))
 
 isLeap = False
 if (year % 4 == 0):
